@@ -1,0 +1,17 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /ecommerce
+Allow: /socialmedia
+Allow: /website
+Allow: /serviceshome
+Allow: /store
+Allow: /contactus
+Allow: /servicespage
+Allow: /blogcategories
+Allow: /404
+Disallow:
+
+
+
