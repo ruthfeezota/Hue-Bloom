@@ -63,7 +63,7 @@ const FloatingImage = () => {
                   onMouseUp={handleMouseLeave}
                   onMouseEnter={handleMouseLeave}
                   src="/img/candleset.png"
-                  alt="CBD marketing, THC marketing, Edibles branding, Cannabis tinctures, Pre-roll advertising, Concentrates marketing, Topical cannabis, Cannabis beverages, Vape marketing, Flower marketing"
+                  alt="CBD marketing, THC marketing, Edibles branding, web design tinctures, Pre-roll advertising, Concentrates marketing, Topical web design, web design beverages, Vape marketing, Flower marketing"
                   className="object-cover h-[550px]"
                 />
               </div>

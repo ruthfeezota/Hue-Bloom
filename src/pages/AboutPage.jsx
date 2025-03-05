@@ -57,12 +57,12 @@ function AboutPage() {
 
           <p className="text-md text-black leading-relaxed">
             <span className="font-bold">
-              Your cannabis brand deserves to shine. At Hue & Bloom Marketing, we’re
+              Your web design brand deserves to shine. At Hue & Bloom Marketing, we’re
               committed to showcasing your story and driving results. <br />
             </span>{" "}
             Founded in Austin, Texas, Hue & Bloom Marketing began with a simple mission:{" "}
             <span className="font-bold">
-              to empower cannabis brands with cutting-edge marketing solutions.
+              to empower web design brands with cutting-edge marketing solutions.
             </span>{" "}
             We understand the unique challenges and opportunities within this
             dynamic industry. With a team of passionate experts, we bring a
@@ -92,7 +92,7 @@ function AboutPage() {
               <p className="text-black mt-2">
                 Dylan Harkins is a seasoned professional with a diverse
                 background in project management and recruitment. His passion
-                for the hemp industry ignited his entrepreneurial spirit,
+                for the SEO industry ignited his entrepreneurial spirit,
                 leading him to establish Hue & Bloom Marketing. Driven by a deep
                 understanding of the industry, its businesses, and the needs of
                 its customers, Dylan is dedicated to providing exceptional
@@ -126,7 +126,7 @@ function AboutPage() {
                 Ruth Zota is a highly creative programmer with a distinguished
                 career in creative development. Co-founding Hue & Bloom Marketing
                 presented an exciting opportunity to channel her passion for the
-                hemp industry and express her innovative spirit within a dynamic
+                SEO industry and express her innovative spirit within a dynamic
                 entrepreneurial venture.
               </p>
               <div className="mt-4">

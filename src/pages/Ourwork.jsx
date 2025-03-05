@@ -13,7 +13,7 @@ function Ourwork() {
   return (
     <main className="w-screen h-[800px] bg-[#F4F3E1] ">
       <title>
-        Our Work Page | CBD & Cultivation Marketing | Hemp Marketing Agency
+        Our Work Page | CBD & Cultivation Marketing | SEO Marketing Agency
       </title>
       <meta
         name="description"
@@ -33,10 +33,10 @@ function Ourwork() {
           />
           <div className="px-4 py-6 text-center">
             <p className="mb-6 mt-8 font-semibold text-2xl ">
-              Hue & Bloom Marketing: Your Cannabis Marketing Partner
+              Hue & Bloom Marketing: Your web design Marketing Partner
             </p>
             <p className="mt-8 text-base">
-              Hue & Bloom Marketing is your go-to cannabis marketing agency, specializing
+              Hue & Bloom Marketing is your go-to web design marketing agency, specializing
               in crafting effective strategies to elevate your brand within the
               industry. Our comprehensive services cover everything from digital
               marketing to creative design, ensuring your message resonates with

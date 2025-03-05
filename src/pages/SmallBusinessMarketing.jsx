@@ -16,7 +16,7 @@ import ContactSM from "../components/SmallBusiness/ContactSM";
 function SmallBusinessMarketing() {
   return (
     <main className="relative min-h-screen w-screen overflow-x-hidden bg-[#F4F3E1]">
-    <title>Cannabis Marketing Page | Small Business Marketing | Web Design Marketing Agency Austin Texas | Hue & Bloom Marketing</title>
+    <title>web design Marketing Page | Small Business Marketing | Web Design Marketing Agency Austin Texas | Hue & Bloom Marketing</title>
             <meta
                 name="description"
                 content="Grow your women-owned business with Hue & Bloom Marketing. We provide strategic web design, SEO, and content creation to boost your online presence and increase sales."

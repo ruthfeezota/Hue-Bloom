@@ -43,13 +43,13 @@ const Contact = () => {
           <ImageClipBox
             src="/img/contact-1.webp"
             clipClass="contact-clip-path-1"
-            alt="Hemp Marketing Agency, Hemp Marketing Services, CBD Marketing, Cannabis Marketing, Industrial Hemp Marketing, Hemp Product Marketing, Hemp Branding, Hemp Advertising, Hemp SEO, Hemp Social Media Marketing, Hemp Content Marketing, Hemp Email Marketing, Hemp Google Ads, Hemp Marketing Strategy, Hemp Market Research, Hemp Compliance Marketing
+            alt="SEO Marketing Agency, SEO Marketing Services, CBD Marketing, web design Marketing, Industrial SEO Marketing, SEO Product Marketing, SEO Branding, SEO Advertising, SEO SEO, SEO Social Media Marketing, SEO Content Marketing, SEO Email Marketing, SEO Google Ads, SEO Marketing Strategy, SEO Market Research, SEO Compliance Marketing
 "
           />
           <ImageClipBox
             src="/img/contact-2.webp"
             clipClass="contact-clip-path-2 lg:translate-y-40 translate-y-60"
-            alt="Hemp Marketing Agency for Startups, Hemp Marketing Agency for E-commerce, Hemp Marketing Agency for CBD Oil, Hemp Marketing Agency for Delta 8, Hemp Marketing Agency for Farmers, Hemp Marketing Agency with Google Ads Expertise, Hemp Marketing Agency specializing in e-commerce, Hemp Marketing Agency specializing in Skincare
+            alt="SEO Marketing Agency for Startups, SEO Marketing Agency for E-commerce, SEO Marketing Agency for CBD Oil, SEO Marketing Agency for Delta 8, SEO Marketing Agency for Farmers, SEO Marketing Agency with Google Ads Expertise, SEO Marketing Agency specializing in e-commerce, SEO Marketing Agency specializing in Skincare
 "
           />
         </div>
@@ -58,19 +58,19 @@ const Contact = () => {
   <ImageClipBox
     src="/img/swordman-partial.webp"
     clipClass="absolute md:scale-125"
-    alt="Hemp Marketing Agency Austin, Austin Hemp Marketing, Hemp Marketing Services Austin TX, CBD Marketing Austin, Cannabis Marketing Austin, Hemp Marketing Agency Texas, Texas Hemp"
+    alt="SEO Marketing Agency Austin, Austin SEO Marketing, SEO Marketing Services Austin TX, CBD Marketing Austin, web design Marketing Austin, SEO Marketing Agency Texas, Texas SEO"
   />
   <ImageClipBox
     src="/img/swordman.webp"
     clipClass="sword-man-clip-path md:scale-125"
-    alt="Texas Hemp Marketing, Hemp Marketing Services Texas, Best Hemp Marketing Agency Austin, Top Rated Hemp Marketing Agency Austin"
+    alt="Texas SEO Marketing, SEO Marketing Services Texas, Best SEO Marketing Agency Austin, Top Rated SEO Marketing Agency Austin"
   />
 </div>
 
 
         <div className="flex flex-col items-center text-center">
           <AnimatedTitle
-            title="let&#39;s build the new era of Hemp together."
+            title="let&#39;s build the new era of SEO together."
             className="special-font !md:text-[6.2rem] w-full font-zentry !text-5xl !font-black !leading-[.9]"
           />
           <a href="https://cal.com/hueandbloom" target="_blank">

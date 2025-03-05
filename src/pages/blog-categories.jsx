@@ -5,7 +5,7 @@ import Footer from '../components/Footer.jsx'
 function blogcategories() {
   return (
     <div>
-          <title>Blog Page | Texas Cannabis Marketing | CBD & Cultivation Marketing | Hue & Bloom</title>
+          <title>Blog Page | Texas web design Marketing | CBD & Cultivation Marketing | Hue & Bloom</title>
     <meta
         name="description"
         content="Hue & Bloom Marketing: Expert web design, SEO, and social media for women entrepreneurs. Elevate your brand today!"

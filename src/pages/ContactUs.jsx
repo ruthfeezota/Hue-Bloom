@@ -339,7 +339,7 @@ function ContactUs() {
   <ImageClipBox
     src="/img/swordman.webp"
     clipClass="sword-man-clip-path md:scale-125"
-    alt="Texas Hemp Marketing, Hemp Marketing Services Texas, Best Hemp Marketing Agency Austin, Top Rated Hemp Marketing Agency Austin"
+    alt="Texas SEO Marketing, SEO Marketing Services Texas, Best SEO Marketing Agency Austin, Top Rated SEO Marketing Agency Austin"
   />
 </div>
             <div className="absolute -top-40 left-20 w-60 sm:top-1/2 md:left-auto md:right-10 lg:top-20 lg:w-80">
