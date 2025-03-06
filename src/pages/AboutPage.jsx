@@ -80,7 +80,7 @@ function AboutPage() {
                 alt="Founder 1"
                 className="w-40 h-40 mx-auto rounded-full object-cover mb-4 border border-gray-200"
               />
-              <h3 className="text-xl font-bold text-black">Dylan Harkins</h3>
+              <h3 className="text-xl font-bold text-black">Dylanna Harkins</h3>
               <p className="text-black mt-2">
               Dylanna Harkins is a seasoned professional with a diverse background in project management and business development. Her passion for empowering women entrepreneurs ignited her entrepreneurial spirit, leading her to establish Hue & Bloom Marketing. Driven by a deep understanding of the challenges women face in business, and the needs of their customers, Dylanna is dedicated to providing exceptional service and fostering growth within this vibrant community.
               </p>
