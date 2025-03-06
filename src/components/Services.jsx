@@ -74,7 +74,7 @@ function Services() {
   ];
   return (
     <section
-      className="py-14 bg-[#F4F3E1] questrial-regular"
+      className="py-14 bg-neutral-100 questrial-regular"
       id="services"
       data-aos="fade-up"
     >
@@ -82,7 +82,7 @@ function Services() {
         className="max-w-screen-xl mx-auto px-4  md:px-8"
         data-aos="zoom-in-down"
       >
-        <div className="relative max-w-2xl mx-auto sm:text-center mt-40">
+        <div className="relative max-w-2xl mx-auto sm:text-center mt-4">
           <div className="relative z-10">
             <AnimatedTitle
               title="<b>Services</b>"

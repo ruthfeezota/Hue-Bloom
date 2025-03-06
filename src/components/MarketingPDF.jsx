@@ -20,10 +20,10 @@ function MarketingPDF() {
   };
 
   return (
-    <div>
+    <div className='bg-neutral-100'>
       
       {/* First Section with 4 Equal Columns */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-2 mt-24 p-4" id="section-1">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-2 mt-24 p-4 " id="section-1">
         {/* Image Section */}
         <div className=" sm:h-[350px] md:h-[300px] flex justify-center items-center">
           <img

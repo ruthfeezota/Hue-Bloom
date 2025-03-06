@@ -57,21 +57,13 @@ function AboutPage() {
 
           <p className="text-md text-black leading-relaxed">
             <span className="font-bold">
-              Your web design brand deserves to shine. At Hue & Bloom Marketing, we’re
-              committed to showcasing your story and driving results. <br />
+            Your women-owned business deserves to shine online. At Hue & Bloom Marketing, we're committed to showcasing your unique story and driving tangible results. <br />
             </span>{" "}
-            Founded in Austin, Texas, Hue & Bloom Marketing began with a simple mission:{" "}
+            Founded in Austin, Texas, Hue & Bloom Marketing began with a powerful mission: {" "}
             <span className="font-bold">
-              to empower web design brands with cutting-edge marketing solutions.
+            to empower women-owned businesses with cutting-edge digital marketing solutions.
             </span>{" "}
-            We understand the unique challenges and opportunities within this
-            dynamic industry. With a team of passionate experts, we bring a
-            blend of creativity, strategy, and technical expertise to every
-            project. From crafting premium brand positioning strategies to
-            optimizing your marketing infrastructure, we provide solutions that
-            scale as your business grows. Whether it’s developing cohesive brand
-            narratives, upgrading Shopify platforms, or creating strategic
-            content workflows, we’re here to help you thrive.
+            We understand the unique challenges and opportunities within the dynamic landscape of female entrepreneurship. With a team of passionate experts, we bring a blend of creativity, strategy, and technical expertise to every project. From crafting compelling brand positioning strategies to optimizing your online presence, we provide solutions that scale as your business grows. Whether it's developing cohesive brand narratives, designing user-friendly websites, or creating strategic content workflows, we're here to help you thrive.
           </p>
         </section>
 
@@ -90,13 +82,7 @@ function AboutPage() {
               />
               <h3 className="text-xl font-bold text-black">Dylan Harkins</h3>
               <p className="text-black mt-2">
-                Dylan Harkins is a seasoned professional with a diverse
-                background in project management and recruitment. His passion
-                for the SEO industry ignited his entrepreneurial spirit,
-                leading him to establish Hue & Bloom Marketing. Driven by a deep
-                understanding of the industry, its businesses, and the needs of
-                its customers, Dylan is dedicated to providing exceptional
-                service and fostering growth within this dynamic sector.
+              Dylanna Harkins is a seasoned professional with a diverse background in project management and business development. Her passion for empowering women entrepreneurs ignited her entrepreneurial spirit, leading her to establish Hue & Bloom Marketing. Driven by a deep understanding of the challenges women face in business, and the needs of their customers, Dylanna is dedicated to providing exceptional service and fostering growth within this vibrant community.
               </p>
               <div className="mt-4">
                 <a
@@ -123,11 +109,7 @@ function AboutPage() {
               />
               <h3 className="text-xl font-bold text-black">Ruth Zota</h3>
               <p className="text-black mt-2">
-                Ruth Zota is a highly creative programmer with a distinguished
-                career in creative development. Co-founding Hue & Bloom Marketing
-                presented an exciting opportunity to channel her passion for the
-                SEO industry and express her innovative spirit within a dynamic
-                entrepreneurial venture.
+              Ruth Zota is a highly creative programmer with a distinguished career in web development and design. Co-founding Hue & Bloom Marketing presented an exciting opportunity to channel her passion for supporting women-owned businesses and express her innovative spirit within a dynamic entrepreneurial venture. She loves to create beautiful and functional websites that help women succeed.
               </p>
               <div className="mt-4">
                 <a

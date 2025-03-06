@@ -9,7 +9,7 @@ import Button from "../../components/Button";
 
 function Website() {
   return (
-    <main className="w-screen h-[800px] bg-[#F4F3E1] ">
+    <main className="w-screen h-[800px] bg-[#f5f5f5] ">
       <title>
       Website Page | Texas web design Marketing | CBD & Cultivation Marketing | Hue & Bloom Marketing
       </title>
@@ -25,44 +25,43 @@ function Website() {
       <div className="relative max-w-2xl mx-auto mt-32">
         <div className="relative z-10">
           <AnimatedTitle
-            title="Custom<br/>Websites<br/>"
+            title="Custom<br/>Web Designs<br/>"
             containerClass="mt-1 !text-black text-center"
           />
           <div className="px-4 py-6">
             <p className="mb-6 mt-6 text-lg font-semibold">
             Step Into the Future of Web Design
             </p>
-             <p className="mb-6">Engage Your Audience with Custom 3D Web Experiences Transform your website into an interactive masterpiece. Hue & Bloom Marketing specializes in custom 3D web design tailored for web design brands. Our innovative designs captivate visitors, increase engagement, and reflect the uniqueness of your products.
-We’ll optimize your Shopify or e-commerce platform with advanced themes, conversion-focused layouts, and stunning visuals. Let’s make your website unforgettable.
+             <p className="mb-6">Engage Your Audience with Custom Web Experiences. Transform your website into an interactive and engaging online presence. Hue & Bloom Marketing specializes in creating custom web designs tailored to women-owned businesses in Austin and beyond. Our innovative designs captivate visitors, increase engagement, and reflect the unique essence of your brand. We'll optimize your website, whether it's on Shopify, WordPress, or another platform, with modern themes, conversion-focused layouts, and stunning visuals. Let's make your website a powerful tool for your business's growth.
 </p>
-            <p className="font-bold mb-2">Our 3D Website Design Services Include</p>
+            <p className="font-bold mb-2">Our Custom Web Design Services Include:</p>
             <ul className="space-y-4">
               <li>
                 <span className="font-bold block">
-                3D Concept & Design:
+                Custom Concept & Design:
                 </span>
                 <span>
-                We create detailed 3D models, animations, and interactive elements that align with your brand identity.
+                We craft unique website designs that align perfectly with your brand identity and business goals.
                 </span>
               </li>
               <li>
-                <span className="font-bold block">Custom Development:</span>
+                <span className="font-bold block">Website Development:</span>
                 <span>
-                We leverage cutting-edge technologies like React, Three.js, and GSAP to build high-performance, custom-coded 3D websites.
+                We build high-performance, user-friendly websites using the latest web technologies.
                 </span>
               </li>
               <li>
                 <span className="font-bold block">User Experience (UX) Design:</span>
                 <span>
-                We prioritize intuitive navigation and engaging interactions to guide users effortlessly through your 3D website.
+                We prioritize intuitive navigation and engaging interactions to guide users seamlessly through your website.
                 </span>
               </li>
               <li>
                 <span className="font-bold block">
-                Performance Optimization:
+                E-commerce Optimization:
                 </span>
                 <span>
-                We optimize your 3D website for speed and performance across all devices, ensuring fast loading times and smooth animations.
+                We optimize your online store for conversions, creating a smooth and enjoyable shopping experience.
                 </span>
               </li>
               <li>
@@ -70,15 +69,14 @@ We’ll optimize your Shopify or e-commerce platform with advanced themes, conve
                 Maintenance & Support:
                 </span>
                 <span>
-                We provide ongoing maintenance and support to ensure your 3D website remains up-to-date and performs optimally.
+                We provide ongoing maintenance and support to keep your website up-to-date and performing optimally.
                 </span>
               </li>
             </ul>
             <p className="mt-8 text-base">
               <span className="font-bold">
-              Let us elevate your online presence with a truly immersive 3D experience that drives conversions and enhances your brand image.
+              Let us elevate your online presence with a custom web design that drives results and enhances your brand image. Contact us today to learn more about our web design services and how we can help your women-owned business thrive.
               </span>{" "}
-              Contact us today to learn more about our 3D web design services.
             </p>
           </div>
           ​

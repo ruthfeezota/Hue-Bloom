@@ -8,7 +8,7 @@ import trilogeneseeds from "../../assets/trilogeneseeds.png";
 function Ecommerce() {
   
   return (
-    <main className="w-screen h-[800px] bg-[#F4F3E1] ">
+    <main className="w-screen h-[800px] bg-[#f5f5f5] ">
       <title>
       Ecommerce Page | Texas SEO Marketing | CBD & Cultivation Marketing | Hue & Bloom Marketing
       </title>

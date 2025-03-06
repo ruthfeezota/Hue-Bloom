@@ -20,7 +20,7 @@ function Gallery() {
   };
 
   return (
-    <main className="w-screen h-screen bg-[#F4F3E1] overflow-hidden mb-20">
+    <main className="w-screen h-screen bg-[#f5f5f5] overflow-hidden mb-20">
  <div className="relative max-w-2xl mx-auto sm:text-center mt-32">
           <div className="relative z-10">
             <AnimatedTitle

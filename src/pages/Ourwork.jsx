@@ -11,7 +11,7 @@ import Can from "../assets/canrent.png";
 
 function Ourwork() {
   return (
-    <main className="w-screen h-[800px] bg-[#F4F3E1] ">
+    <main className="w-screen h-[800px] bg-[#f5f5f5] ">
       <title>
         Our Work Page | CBD & Cultivation Marketing | SEO Marketing Agency
       </title>
@@ -33,14 +33,12 @@ function Ourwork() {
           />
           <div className="px-4 py-6 text-center">
             <p className="mb-6 mt-8 font-semibold text-2xl ">
-              Hue & Bloom Marketing: Your web design Marketing Partner
+            Hue & Bloom Marketing: Your Digital Growth Partner for Women-Owned Businesses
             </p>
             <p className="mt-8 text-base">
-              Hue & Bloom Marketing is your go-to web design marketing agency, specializing
-              in crafting effective strategies to elevate your brand within the
-              industry. Our comprehensive services cover everything from digital
-              marketing to creative design, ensuring your message resonates with
-              your target audience.
+            At Hue & Bloom Marketing, we're passionate about empowering women entrepreneurs with impactful online strategies. We specialize in crafting custom web designs, strategic SEO, and compelling content that elevates your brand and drives real results.
+
+We understand the unique needs of women-owned businesses and provide comprehensive services tailored to help you thrive in the digital landscape. From creating beautiful, user-friendly websites to optimizing your online presence for search engines, we ensure your message resonates with your target audience and attracts your ideal customers.
             </p>
           </div>
           ​
@@ -51,8 +49,8 @@ function Ourwork() {
 
 
       <div className="mt-10">
-  <h1 className="text-center font-bold text-5xl tracking-wide font-zentry m-20 items-center text-[#586828]">
-    E-commerce Development Projects
+  <h1 className="text-center font-bold text-5xl tracking-wide font-zentry m-20 items-center text-[#A8C082]">
+    Web Design
   </h1>
 </div>
 <div className="flex flex-col gap-4 md:flex-row justify-center items-center">
@@ -61,7 +59,7 @@ function Ourwork() {
     <a href="https://takespruce.com/">
       <img
         src={takespruces}
-        className="h-[300px] max-w-full rounded-lg md:h-[400px] group-hover:brightness-75 transition duration-300"
+        className="h-[300px] max-w-full rounded-lg md:h-[300px] group-hover:brightness-75 transition duration-300"
         alt=""
       />
       <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 rounded-lg">
@@ -75,10 +73,10 @@ function Ourwork() {
     <a href="https://trilogeneseeds.com/">
       <img
         src={trilogeneseeds}
-        className="h-[200px] w-[500px] rounded-full md:h-[350px] group-hover:brightness-75 transition duration-300"
+        className="h-[300px] max-w-full rounded-lg md:h-[300px] group-hover:brightness-75 transition duration-300"
         alt=""
       />
-      <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 rounded-full">
+      <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 rounded-lg">
         <span className="text-white font-semibold text-center text-xl">Trilogene Seeds E-commerce Website <br/> Click to View</span>
       </div>
     </a>
@@ -97,8 +95,8 @@ function Ourwork() {
 
 
       <div>
-  <h1 className="text-center font-bold text-5xl tracking-wide font-zentry m-20 items-center text-[#586828]">
-    Social Media Management
+  <h1 className="text-center font-bold text-5xl tracking-wide font-zentry m-20 items-center text-[#A8C082]">
+    SEO (Search Engine Optimization)
   </h1>
 </div>
 <div className="flex flex-col gap-4 md:flex-row justify-center items-center">
@@ -107,7 +105,7 @@ function Ourwork() {
     <a href="https://www.instagram.com/quality.roots">
       <img
         src={QualityRoots}
-        className="h-[300px] max-w-full rounded-lg md:h-[400px] group-hover:brightness-75 transition duration-300"
+        className="h-[300px] max-w-full rounded-lg md:h-[300px] group-hover:brightness-75 transition duration-300"
         alt=""
       />
       <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 rounded-lg">
@@ -121,10 +119,10 @@ function Ourwork() {
     <a href="https://www.instagram.com/mgc_social/">
       <img
         src={Mgcsocial}
-        className="h-[300px] w-[300px] max-w-full rounded-full md:h-[300px] m-10 group-hover:brightness-75 transition duration-300"
+        className="h-[300px] max-w-full rounded-lg md:h-[300px] m-10 group-hover:brightness-75 transition duration-300"
         alt=""
       />
-      <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 rounded-full">
+      <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 rounded-lg">
         <span className="text-white font-semibold text-center text-xl">MGC Social Instagram<br/> Click to View</span>
       </div>
     </a>
@@ -135,10 +133,10 @@ function Ourwork() {
     <a href="https://www.facebook.com/urbnleaf/">
       <img
         src={UrbnLeaf1}
-        className="h-[200px] w-[500px] rounded-full md:h-[350px] group-hover:brightness-75 transition duration-300"
+        className="h-[300px] max-w-full rounded-lg md:h-[300px] group-hover:brightness-75 transition duration-300"
         alt=""
       />
-      <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 rounded-full">
+      <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 rounded-lg">
         <span className="text-white font-semibold text-center text-xl">URBN Leaf Facebook <br/> Click to View</span>
       </div>
     </a>
@@ -151,8 +149,8 @@ function Ourwork() {
 
 
       <div className="mb-10">
-  <h1 className="text-center font-bold text-5xl tracking-wide font-zentry m-10 items-center text-[#586828]">
-    Custom Website Designs and Applications
+  <h1 className="text-center font-bold text-5xl tracking-wide font-zentry m-10 items-center text-[#A8C082]">
+    Content and Social Media Design
   </h1>
 </div>
 <div className="flex flex-col gap-4 md:flex-row justify-center items-center">
@@ -161,7 +159,7 @@ function Ourwork() {
     <a href="https://candropsproject1.web.app">
       <img
         src={Can}
-        className="h-[300px] max-w-full rounded-lg md:h-[400px] group-hover:brightness-75 transition duration-300"
+        className="h-[300px] max-w-full rounded-lg md:h-[300px] group-hover:brightness-75 transition duration-300"
         alt=""
       />
       <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300">
@@ -175,10 +173,10 @@ function Ourwork() {
   <a href="https://bulgetextapp.firebaseapp.com">
     <img
       src={Smoke}
-      className="h-[200px] w-[500px] rounded-full md:h-[350px] group-hover:brightness-75 transition duration-300"
+      className="h-[300px] max-w-full rounded-lg md:h-[300px] group-hover:brightness-75 transition duration-300"
       alt=""
     />
-    <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-full opacity-0 group-hover:opacity-100 transition duration-300">
+    <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300">
       <span className="text-white text-center font-semibold text-xl">When Will We Smoke App <br/> Click to View</span>
     </div>
   </a>
