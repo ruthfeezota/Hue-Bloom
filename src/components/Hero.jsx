@@ -111,7 +111,7 @@ const Hero = () => {
   return (
     <div className="relative h-dvh w-screen overflow-x-hidden">
       {loading && (
-        <div className="flex-center absolute z-[100] h-dvh w-screen overflow-hidden bg-[#f5f5f5]">
+        <div className="flex-center absolute z-[100] h-dvh w-screen overflow-hidden bg-[#F4F3E1  ]">
           {/* https://uiverse.io/G4b413l/tidy-walrus-92 */}
           <div className="three-body">
             <div className="three-body__dot"></div>
@@ -123,7 +123,7 @@ const Hero = () => {
 
       <div
         id="video-frame"
-        className="relative z-10 h-dvh w-screen overflow-hidden rounded-lg bg-[#f5f5f5]"
+        className="relative z-10 h-dvh w-screen overflow-hidden rounded-lg bg-[#F4F3E1]"
       >
         <div>
           <div className="mask-clip-path absolute-center absolute z-50 size-64 cursor-pointer overflow-hidden rounded-lg">
@@ -166,7 +166,7 @@ const Hero = () => {
           />
         </div>
 
-        {/* <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-[#f5f5f5] px-5 sm:px-10">
+        {/* <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-[#F4F3E1  ] px-5 sm:px-10">
           <b>That</b> <b>Converts</b>
         </h1> */}
 
@@ -179,7 +179,7 @@ const Hero = () => {
               </b>
             </h1>
 
-            <p className="mb-5 mt-10 sm:mt-2 max-w-[400px] sm:max-w-[600px] rounded-md p-2 font-robert-regular text-[#f5f5f5]  bg-black/80 backdrop-blur-md opacity-80 sm:text-[17px] text-[15px]">
+            <p className="mb-5 mt-10 sm:mt-2 max-w-[400px] sm:max-w-[600px] rounded-md p-2 font-robert-regular text-[#F4F3E1  ]  bg-black/80 backdrop-blur-md opacity-80 sm:text-[17px] text-[15px]">
               <b>Cultivating Your Digital Legacy</b>: We're dedicated to
               empowering women-owned businesses through strategic
               marketing, and web design.

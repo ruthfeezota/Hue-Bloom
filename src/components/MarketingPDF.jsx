@@ -20,7 +20,7 @@ function MarketingPDF() {
   };
 
   return (
-    <div className='bg-neutral-100'>
+    <div className='bg-[#F4F3E1  ]'>
       
       {/* First Section with 4 Equal Columns */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-2 mt-24 p-4 " id="section-1">

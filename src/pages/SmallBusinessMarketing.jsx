@@ -15,7 +15,7 @@ import ContactSM from "../components/SmallBusiness/ContactSM";
 
 function SmallBusinessMarketing() {
   return (
-    <main className="relative min-h-screen w-screen overflow-x-hidden bg-[#f5f5f5]">
+    <main className="relative min-h-screen w-screen overflow-x-hidden bg-[#F4F3E1  ]">
     <title>web design Marketing Page | Small Business Marketing | Web Design Marketing Agency Austin Texas | Hue & Bloom Marketing</title>
             <meta
                 name="description"

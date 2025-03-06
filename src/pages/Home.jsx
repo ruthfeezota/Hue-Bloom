@@ -12,7 +12,7 @@ import HeroNew from "../components/HeroNew";
 
 function Home() {
   return (
-    <main className="relative min-h-screen w-screen overflow-x-hidden bg-[#f5f5f5]">
+    <main className="relative min-h-screen w-screen overflow-x-hidden bg-[#F4F3E1  ]">
     <title>Home Page | Hue & Bloom Marketing in Austin empowers women-owned businesses nationwide with expert web design, SEO, and social media. Let us amplify your brand and drive growth. | Hue & Bloom</title>
             <meta
                 name="description"

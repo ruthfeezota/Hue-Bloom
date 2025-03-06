@@ -74,7 +74,7 @@ function Services() {
   ];
   return (
     <section
-      className="py-14 bg-neutral-100 questrial-regular"
+      className="py-14 bg-[#F4F3E1  ] questrial-regular"
       id="services"
       data-aos="fade-up"
     >

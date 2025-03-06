@@ -19,14 +19,14 @@ function HeroNew() {
   }, []);
 
   return (
-    <section className="px-3 py-4 mt-20 bg-neutral-100 lg:py-10">
+    <section className="px-3 py-4 mt-20 bg-[#F4F3E1  ] lg:py-10">
       <div className="grid lg:grid-cols-2 items-center justify-items-center gap-5">
         {/* Text Section */}
         <div className="order-2 lg:order-1 flex flex-col justify-center items-center">
           <p className="text-4xl font-bold md:text-7xl text-[#F5ACC8] font-zentry">25% OFF</p>
           <p className="text-4xl font-bold md:text-8xl font-zentry">Winter Sale</p>
           <p className="mt-2 text-sm md:text-[18px]">
-            Brand Guides and Business Design Systems
+            Need new a new business brand guide or a refreshed look?
           </p>
           <button className="text-lg md:text-xl bg-green-200 text-black py-2 px-5 mt-8 hover:bg-zinc-800 rounded-full transition duration-300 ease-in-out font-zentry">
             Shop Now
@@ -34,20 +34,20 @@ function HeroNew() {
         </div>
 
         {/* Image Section with Auto-Rotating Carousel */}
-        <div className="order-1 lg:order-2 flex flex-col items-center">
-          {/* Main Rotating Image */}
+        <div className="order-1 lg:order-2 flex flex-col items-center mr-10">
+
           <AnimatePresence mode="wait">
             <motion.img
               key={index}
-              className="w-h-[65vh] h-[67vh] object-cover rounded-md shadow-lg" // Full width and 80% height of viewport
+              className="w-h-[63vh] h-[62vh] object-cover rounded-md shadow-lg" 
               src={images[index]}
               alt="Main"
-              transition={{ duration: 10 }}
+              transition={{ duration: 20 }}
             />
           </AnimatePresence>
 
           {/* Image Thumbnails */}
-          <div className="mt-5 flex space-x-3">
+          {/* <div className="mt-5 flex space-x-3">
             {images.map((img, i) => (
               <motion.img
                 key={i}
@@ -58,10 +58,10 @@ function HeroNew() {
                 }`}
                 onClick={() => setIndex(i)}
                 animate={{ opacity: index === i ? 1 : 0.5, scale: index === i ? 1.1 : 1 }}
-                transition={{ duration: 0.5 }}
+                transition={{ duration: 10 }}
               />
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

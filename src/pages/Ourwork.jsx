@@ -11,7 +11,7 @@ import Can from "../assets/canrent.png";
 
 function Ourwork() {
   return (
-    <main className="w-screen h-[800px] bg-[#f5f5f5] ">
+    <main className="w-screen h-[800px] bg-[#F4F3E1  ] ">
       <title>
         Our Work Page | CBD & Cultivation Marketing | SEO Marketing Agency
       </title>

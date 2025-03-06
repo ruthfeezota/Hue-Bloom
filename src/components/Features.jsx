@@ -62,7 +62,7 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
       <img
         src={src}
         className="absolute left-0 top-0 size-full object-cover object-center"/>
-      <div className="relative z-10 flex size-full flex-col justify-between p-5 text-[#f5f5f5]">
+      <div className="relative z-10 flex size-full flex-col justify-between p-5 text-[#F4F3E1  ]">
         <div>
           <h1 className="bento-title special-font tracking-wide">{title}</h1>
           {description && (
@@ -101,9 +101,9 @@ const Features = () => (
       <div className="px-5 py-12 flex items-center justify-center">
             <AnimatedTitle
               title="Portfolio&nbsp;"
-              containerClass="mt-5 !text-[#f5f5f5]"
+              containerClass="mt-5 !text-[#F4F3E1  ]"
             />
-        {/* <p className="min-w-md font-circular-web text-lg !text-[#f5f5f5]">
+        {/* <p className="min-w-md font-circular-web text-lg !text-[#F4F3E1  ]">
         [COMING VERY SOON] Dive into our portfolio and discover a range of creative projects. From sleek and user-friendly websites to engaging and eye-catching graphics, we showcase our ability to deliver high-quality, results-driven creative solutions across various platforms.
         </p> */}
       </div>
