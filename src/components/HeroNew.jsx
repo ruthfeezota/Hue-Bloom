@@ -28,9 +28,11 @@ function HeroNew() {
           <p className="mt-2 text-sm md:text-[18px]">
             Need new a new business brand guide or a refreshed look?
           </p>
-          <button className="text-lg md:text-xl bg-green-200 text-black py-2 px-5 mt-8 hover:bg-zinc-800 rounded-full transition duration-300 ease-in-out font-zentry">
+          <a href="/store">
+          <button className="text-lg md:text-xl bg-green-200 text-black py-2 px-5 mt-8 hover:bg-zinc-100 rounded-full transition duration-300 ease-in-out font-zentry">
             Shop Now
           </button>
+          </a>
         </div>
 
         {/* Image Section with Auto-Rotating Carousel */}
