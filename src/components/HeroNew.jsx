@@ -1,15 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import BrandGuide from "../assets/BrandGuide.webp";
+import BrandGuide2 from "../assets/BrandGuide2.webp";
+import BrandGuide3 from "../assets/BrandGuide3.webp";
+import BrandGuide4 from "../assets/BrandGuide4.webp";
 
 function HeroNew() {
-  const images = [
-    "/public/img/BrandGuide.webp",
-    "/public/img/BrandGuide2.webp",
-    "/public/img/BrandGuide3.webp",
-    "/public/img/BrandGuide4.webp",
-    
-  ];
-
+  const images = [BrandGuide, BrandGuide2, BrandGuide3, BrandGuide4];
+  
   const [index, setIndex] = useState(0);
 
   // Auto-rotate images every 3 seconds
@@ -21,20 +19,18 @@ function HeroNew() {
   }, []);
 
   return (
-    <section className="px-3 py-24 mt-20 bg-neutral-100 lg:py-10">
+    <section className="px-3 py-4 mt-20 bg-neutral-100 lg:py-10">
       <div className="grid lg:grid-cols-2 items-center justify-items-center gap-5">
         {/* Text Section */}
         <div className="order-2 lg:order-1 flex flex-col justify-center items-center">
           <p className="text-4xl font-bold md:text-7xl text-[#F5ACC8] font-zentry">25% OFF</p>
           <p className="text-4xl font-bold md:text-8xl font-zentry">Winter Sale</p>
-          <p className="mt-2 text-sm md:text-lg">
+          <p className="mt-2 text-sm md:text-[18px]">
             Brand Guides and Business Design Systems
           </p>
-          <a href="">
-          <button className="text-lg md:text-2xl bg-[#A8C082] text-black py-2 px-5 mt-10 hover:bg-zinc-100 rounded-md transition duration-300 ease-in-out font-zentry ">
+          <button className="text-lg md:text-xl bg-green-200 text-black py-2 px-5 mt-8 hover:bg-zinc-800 rounded-full transition duration-300 ease-in-out font-zentry">
             Shop Now
           </button>
-          </a>
         </div>
 
         {/* Image Section with Auto-Rotating Carousel */}
@@ -43,10 +39,10 @@ function HeroNew() {
           <AnimatePresence mode="wait">
             <motion.img
               key={index}
-              className="h-[80px] w-[80px] object-cover lg:w-[650px] lg:h-[500px] rounded-md shadow-lg"
+              className="w-h-[65vh] h-[67vh] object-cover rounded-md shadow-lg" // Full width and 80% height of viewport
               src={images[index]}
               alt="Main"
-              transition={{ duration: 10.8 }}
+              transition={{ duration: 10 }}
             />
           </AnimatePresence>
 

@@ -57,7 +57,7 @@ const EmailSubmitComponent = () => {
 
                     <button
                         type="submit"
-                        className="rounded-full bg-[#A8C082] px-7 py-3 font-general text-xs uppercase shadow-md hover:bg-[#A0B878] focus:outline-none focus:ring-2 focus:ring-green-300"
+                        className="rounded-full bg-green-200 px-7 py-3 font-general text-xs uppercase shadow-md hover:bg-[#A0B878] focus:outline-none focus:ring-2 focus:ring-green-300"
                         
                     >
                     
@@ -67,7 +67,7 @@ const EmailSubmitComponent = () => {
             ) : (
 
                
-                <button onClick={onButtonClick} className="rounded-full bg-[#A8C082] px-7 py-3 text-black  shadow-md hover:bg-[#A0B878] focus:outline-none focus:ring-2 focus:ring-green-300  font-circular-web">
+                <button onClick={onButtonClick} className="rounded-full bg-green-200 px-7 py-3 text-black  shadow-md hover:bg-[#A0B878] focus:outline-none focus:ring-2 focus:ring-green-300  font-circular-web">
                 Download Marketing Plan
                 </button>
             

@@ -122,7 +122,7 @@ function Services() {
               id="watch-trailer"
               title= "Explore Our Services Today"
               leftIcon={<TiLocationArrow />}
-              containerClass="bg-[#A8C082] flex-center gap-1 mt-2 sm:ml-10"
+              containerClass="bg-green-200 flex-center gap-1 mt-2 sm:ml-10"
             />
             </a>
 

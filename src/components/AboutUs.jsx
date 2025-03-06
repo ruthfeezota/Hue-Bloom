@@ -59,7 +59,7 @@ function AboutUs() {
               id="watch-trailer"
               title="Get Started"
               leftIcon={<TiLocationArrow />}
-              containerClass="bg-[#A8C082] flex-center gap-1 relative"
+              containerClass="bg-green-200 flex-center gap-1 relative"
               
             />
             </a> 
