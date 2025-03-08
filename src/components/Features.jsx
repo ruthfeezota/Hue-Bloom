@@ -111,9 +111,9 @@ const Features = () => (
 
       <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh] bg-opacity-90 text-white">
         <BentoCard
-          src="img/Feauter2.jpg"
-          title="Native Poppy"
-          description="Redesigned a dispensary website with sleek visuals, easy navigation, and an engaging blog."
+          src="img/UpleafMain1.webp"
+          title="Upleaf Media"
+          description="Redesign branding for Upleaf Media which is a cannabis marketing agency. We created a website, completed graphic design and social media designs."
           isComingSoon
           link="/ourwork" // Replace with actual URL
         />
@@ -134,9 +134,9 @@ const Features = () => (
 
         <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
           <BentoCard
-            src="img/Feauter8.jpg"
-            title="nusexus"
-            description="Built an interactive educational platform with strain profiles, personalized recommendations, and community forums."
+            src="img/Feauter2.jpg"
+            title="Native Poppy"
+            description=" Redesigned a coffee shop website with sleek visuals, easy navigation, and an engaging blog."
             isComingSoon
             link="/ourwork"
           />

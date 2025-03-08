@@ -10,7 +10,7 @@ import Button from "./Button";
 const navItems = [
   { label: "About Us", link: "/about" },
   { label: "Our Work", link: "/ourwork" },
-  { label: "3d Web Design", link: "/website" },
+  { label: "Web Design", link: "/website" },
   { label: "Social Media Management", link: "/socialmedia" },
   { label: "Contact Us", link: "/contactus" },
 ];

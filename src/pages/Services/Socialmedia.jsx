@@ -9,7 +9,7 @@ import Button from "../../components/Button";
 
 function Socialmedia() {
   return (
-    <main className="w-screen h-[800px] bg-[#F4F3E1  ] ">
+    <main className="w-screen flex-grow bg-[#F4F3E1  ] ">
       <title>
         Social Media Management Page | CBD & Cultivation Marketing |
         SEO Marketing Agency

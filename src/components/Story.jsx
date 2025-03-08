@@ -45,7 +45,7 @@ const FloatingImage = () => {
   };
 
   return (
-    <div id="story" className="min-h-dvh w-screen bg-black text-white max-h-[800px]">
+    <div id="story" className="min-h-dvh w-screen bg-black text-white max-flex-grow">
       <div className="flex flex-col md:flex-row w-full items-center md:items-start gap-6 px-5 py-10">
         <div className="relative w-full md:w-auto mt-10">
           <AnimatedTitle

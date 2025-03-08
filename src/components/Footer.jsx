@@ -13,7 +13,7 @@ const socialLinks = [
 
 const Footer = () => {
   return (
-    <footer className="w-screen bg-black py-4 text-white bottom-0 z-10 fixed">
+    <footer className="w-screen bg-black py-4 text-white relative mt-auto z-10 fixed">
       <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row">
         <p className="text-center text-sm font-light md:text-left">
           ©Woaom LLC DBA Hue & Bloom Marketing 2025. All rights reserved

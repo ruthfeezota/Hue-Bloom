@@ -13,6 +13,7 @@ import Home from "./pages/home";
 import Ourwork from "./pages/Ourwork";
 import Mypath from "./pages/my-path";
 import { Route, Routes } from "react-router-dom";
+import UpleafMedia from "./pages/OurWork/UpleafMedia";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path="/ourwork" element={<Ourwork />} />
         <Route path="/my-path" element={<Mypath />} />
         <Route path="blogcategories" element={blogcategories}/>
+        <Route path="/upleafmedia" element={<UpleafMedia />} />
         </Routes>
         <Footer/>
         </div>
