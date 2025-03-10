@@ -47,6 +47,7 @@ function HeroNew() {
               transition={{ duration: 20 }}
             />
           </AnimatePresence>
+          <p className=" font-zentry text-[20px] text-[#F5ACC8] leading-8">Our clients's GMB results!</p>
 
           {/* Image Thumbnails */}
           {/* <div className="mt-5 flex space-x-3">
