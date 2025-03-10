@@ -44,10 +44,10 @@ function AboutUs() {
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0">
                 <span className="mb-4 block text-lg font-semibold text-primary">
-                  Why Choose Us
+                  Why Choose Hue and Bloom
                 </span>
                 <h2 className="mb-5 font-zentry text-3xl  text-dark dark:text-black sm:text-[40px]/[48px]">
-                We understand the unique challenges and triumphs of women entrepreneurs.
+                We understand the unique challenges and triumphs of service based entrepreneurs.
                 </h2>
                 <p className="mb-5 text-base text-body-color dark:text-dark-6">Our mission is to provide tailored marketing solutions that not only meet your business goals but also reflect the power and beauty of your brand. 
                 </p>
@@ -59,7 +59,7 @@ function AboutUs() {
               id="watch-trailer"
               title="Get Started"
               leftIcon={<TiLocationArrow />}
-              containerClass="bg-green-200 flex-center gap-1 relative"
+              containerClass="bg-[#a5d6] flex-center gap-1 relative"
               
             />
             </a> 

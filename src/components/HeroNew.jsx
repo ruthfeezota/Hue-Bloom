@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import BrandGuide from "../assets/BrandGuide.webp";
-import BrandGuide2 from "../assets/BrandGuide2.webp";
-import BrandGuide3 from "../assets/BrandGuide3.webp";
-import BrandGuide4 from "../assets/BrandGuide4.webp";
+import BrandGuide from "../assets/BrandGuide.png";
+import BrandGuide2 from "../assets/BrandGuide1.png";
+import BrandGuide3 from "../assets/BrandGuide2.png";
+import BrandGuide4 from "../assets/BrandGuide3.png";
 
 function HeroNew() {
   const images = [BrandGuide, BrandGuide2, BrandGuide3, BrandGuide4];
@@ -24,9 +24,9 @@ function HeroNew() {
         {/* Text Section */}
         <div className="order-2 lg:order-1 flex flex-col justify-center items-center">
           <p className="text-4xl font-bold md:text-7xl text-[#F5ACC8] font-zentry">25% OFF</p>
-          <p className="text-4xl font-bold md:text-8xl font-zentry">Winter Sale</p>
+          <p className="text-4xl font-bold md:text-8xl font-zentry bg-green-200 p-1 text-center">All SEO Packages</p>
           <p className="mt-2 text-sm md:text-[18px]">
-            Need new a new business brand guide or a refreshed look?
+          Skyrocket Your Rankings: Rank Higher, Get More Traffic.
           </p>
           <a href="/store">
           <button className="text-lg md:text-xl bg-green-200 text-black py-2 px-5 mt-8 hover:bg-zinc-100 rounded-full transition duration-300 ease-in-out font-zentry">
@@ -41,7 +41,7 @@ function HeroNew() {
           <AnimatePresence mode="wait">
             <motion.img
               key={index}
-              className="w-h-[63vh] h-[62vh] object-cover rounded-md shadow-lg" 
+              className="w-h-[63vh] object-cover rounded-md shadow-lg" 
               src={images[index]}
               alt="Main"
               transition={{ duration: 20 }}

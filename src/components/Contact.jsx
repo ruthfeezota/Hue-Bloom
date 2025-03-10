@@ -152,7 +152,7 @@ const Contact = () => {
                 {/* Button updated with type="submit" */}
                 <button
                   type="submit"
-                  className="mt-2 cursor-pointer rounded-full bg-yellow-100 px-7 py-3 font-general text-xs uppercase text-[12px]"
+                  className="mt-2 cursor-pointer rounded-full bg-green-200  px-7 py-3 font-general text-xs uppercase text-[12px]"
                 >
                   Contact Us
                 </button>

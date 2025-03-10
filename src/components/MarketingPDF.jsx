@@ -36,7 +36,7 @@ function MarketingPDF() {
         {/* Text and Button Section */}
         <div className="flex flex-col items-center justify-center text-center space-y-4 max-w-[500px]">
           <h1 className="sm:text-[28px] md:text-[40px] mb-4 text-[40px] font-zentry">
-            Download Our <span className="text-[#A8C082]">Free</span> 2025 Marketing Cheat Sheet
+            Download Our <span className="text-[#a5d6]">Free</span> 2025 Marketing Cheat Sheet
           </h1>
           <p className="text-sm sm:text-base md:text-lg mb-5 px-4 md:px-0">
             Subscribe to our newsletter for this free download.
@@ -58,7 +58,7 @@ function MarketingPDF() {
         {/* Text and Button Section */}
         <div className="flex flex-col items-center justify-center text-center space-y-4">
           <h1 className="sm:text-[28px] md:text-[40px] mb-4 text-[40px] font-zentry">
-            Get Our <span className="text-[#A8C082]">Free</span> Marketing Guide!
+            Get Our <span className="text-[#a5d6]">Free</span> Marketing Guide!
           </h1>
           <p className="text-sm sm:text-base md:text-lg mb-5 px-4 md:px-0 max-w-[500px]">
             Subscribe to our newsletter to receive The Complete Guide to Marketing Your Business in 2025.

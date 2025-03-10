@@ -45,7 +45,7 @@ const FloatingImage = () => {
   };
 
   return (
-    <div id="story" className="min-h-dvh w-screen bg-black text-white max-flex-grow">
+    <div id="story" className="max-h-[650px] w-screen bg-black text-white">
       <div className="flex flex-col md:flex-row w-full items-center md:items-start gap-6 px-5 py-10">
         <div className="relative w-full md:w-auto mt-10">
           <AnimatedTitle
@@ -53,9 +53,9 @@ const FloatingImage = () => {
             containerClass="mt-5 pointer-events-none mix-blend-difference relative z-10"
           />
 
-          <div className="story-img-container flex-1">
+          <div className="story-img-container ">
             <div className="story-img-mask">
-              <div className="story-img-content">
+              <div className="">
                 <img
                   ref={frameRef}
                   onMouseMove={handleMouseMove}
@@ -63,8 +63,8 @@ const FloatingImage = () => {
                   onMouseUp={handleMouseLeave}
                   onMouseEnter={handleMouseLeave}
                   src="/img/candleset.png"
-                  alt="CBD marketing, THC marketing, Edibles branding, web design tinctures, Pre-roll advertising, Concentrates marketing, Topical web design, web design beverages, Vape marketing, Flower marketing"
-                  className="object-cover h-[550px]"
+                  alt=""
+                  className="object-cover"
                 />
               </div>
             </div>

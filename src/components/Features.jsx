@@ -80,7 +80,7 @@ export const BentoCard = ({ src, title, description, isComingSoon, link }) => {
               onMouseMove={handleMouseMove}
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
-              className="border-hsla relative flex w-fit cursor-pointer items-center gap-1 overflow-hidden rounded-full bg-green-300 px-5 py-2 text-xs uppercase text-black"
+              className="border-hsla relative flex w-fit cursor-pointer items-center gap-1 overflow-hidden rounded-full bg-[#a5d6] px-5 py-2 text-xs uppercase text-black"
             >
               <div
                 className="pointer-events-none absolute -inset-px opacity-0 transition duration-300"

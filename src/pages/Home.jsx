@@ -9,6 +9,7 @@ import Services from "../components/Services";
 import MarketingPDF from "../components/MarketingPDF"
 import AboutUs from "../components/AboutUs";
 import HeroNew from "../components/HeroNew";
+import Ranking from "../components/Ranking";
 
 function Home() {
   return (
@@ -26,6 +27,7 @@ function Home() {
       <HeroNew/>
       <AboutUs/>
       <Services/>
+      <Ranking/>
       <Features />
       <MarketingPDF/>
       <About />
