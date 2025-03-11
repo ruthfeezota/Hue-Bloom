@@ -150,7 +150,7 @@ const NavBar = () => {
               <a
                 key={index}
                 href={item.link}
-                className="nav-hover-btn text-white px-4 py-2 text-lg"
+                className="nav-hover-btn text-white px-4 py-2 text-xl"
                 onClick={() => setIsMenuOpen(false)} // Close menu after click
               >
                 {item.label}

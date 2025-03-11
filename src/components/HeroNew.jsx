@@ -25,15 +25,15 @@ function HeroNew() {
           <p className="mt-2 text-sm md:text-[18px] text-center">
           Dominate Google Search. We design and launch your high-performance website, then implement proven SEO strategies to secure top rankings and drive a surge in qualified leads.
           </p>
-          <a href="/homeresign">
+          <a href="/website">
             <button className="text-md md:text-md bg-[#aa55dd66] hover:bg-green-200 text-black py-2 px-5 mt-6 rounded-full transition duration-300 ease-in-out ">
-            Web Design and SEO Packages
+            Web Design Packages
             </button>
           </a>
           {/* <img src={Mainimage}  className="w-20 mt-10"/> */}
-          <a href="/homeresign">
+          <a href="/seo">
           <button className="text-md md:text-md bg-green-200 hover:bg-[#aa55dd66] text-black py-2 px-5 mt-4 rounded-full transition duration-300 ease-in-out ">
-          March Sale: $99 Homepage Redesign
+          SEO Packages
             </button>
           </a>
         </div>

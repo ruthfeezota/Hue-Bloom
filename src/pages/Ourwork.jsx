@@ -150,7 +150,7 @@ function Ourwork() {
               </li>
              
             </ul>
-                <a href="https://cal.com/hueandbloom" target="_blank">
+                <a href="https://www.majesticbraids.com" target="_blank">
             <Button
               id="watch-trailer"
               title="View Client's Website"
