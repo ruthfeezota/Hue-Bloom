@@ -64,7 +64,7 @@ const NavBar = () => {
               <img
                 src="/img/logonew4.png"
                 alt="Website development Austin, Website redesign, Website maintenance, Website builders for small business, Web design for women owned business, Wordpress website design, Squarespace website design, Shopify website design, Affordable web design, Professional web design, SEO Austin, Small business SEO, Local SEO services, SEO optimization, SEO strategy, SEO consulting, SEO for women owned business"
-                className="w-[120px] ml-4"
+                className="w-[110px] ml-4"
               />
             </a>
             {/* <a href="/servicespage">

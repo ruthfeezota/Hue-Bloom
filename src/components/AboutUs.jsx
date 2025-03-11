@@ -8,7 +8,7 @@ import image3 from '../assets/19.jpg'
 
 function AboutUs() {
   return (
-    <section className="overflow-hidden bg-[#F4F3E1  ] pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]">
+    <section className="overflow-hidden bg-[#F4F3E1 ] pb-12 pt-6 lg:pb-6 lg:pt-2">
         <div className="container mx-auto">
           <div className="-mx-4 flex flex-wrap items-center justify-between">
             <div className="w-full px-4 lg:w-6/12">
@@ -42,7 +42,7 @@ function AboutUs() {
             </div>
 
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
-              <div className="mt-10 lg:mt-0">
+              <div className="mt-2 lg:mt-0">
                 <span className="mb-4 block text-lg font-semibold text-primary text-[#aa55dd66]">
                   Why Choose Hue and Bloom
                 </span>

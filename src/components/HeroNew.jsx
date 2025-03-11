@@ -18,16 +18,22 @@ function HeroNew() {
       <div className="grid lg:grid-cols-2 items-center h-full">
         {/* Text Section */}
         <div className="order-2 lg:order-1 flex flex-col justify-center items-center px-6">
-          <p className="text-4xl font-bold md:text-5xl text-[#F5ACC8] text-center">Service Business Growth: Websites & SEO.</p>
+          <p className="text-4xl font-bold md:text-6xl text-[#F5ACC8] text-center">Service Business Growth: Websites & SEO.</p>
           {/* <p className="text-4xl font-bold md:text-8xl font-zentry bg-green-200 p-1 text-center">
             Marketing Agency
           </p> */}
           <p className="mt-2 text-sm md:text-[18px] text-center">
-          We understand the unique challenges of service-based businesses. Let us elevate your online presence and drive consistent growth.
+          Dominate Google Search. We design and launch your high-performance website, then implement proven SEO strategies to secure top rankings and drive a surge in qualified leads.
           </p>
-          <a href="/store">
-            <button className="text-md md:text-lg bg-[#aa55dd66] hover:bg-green-200 text-black py-2 px-5 mt-6 rounded-full transition duration-300 ease-in-out ">
-            See Our Service Packages
+          <a href="/homeresign">
+            <button className="text-md md:text-md bg-[#aa55dd66] hover:bg-green-200 text-black py-2 px-5 mt-6 rounded-full transition duration-300 ease-in-out ">
+            Web Design and SEO Packages
+            </button>
+          </a>
+          {/* <img src={Mainimage}  className="w-20 mt-10"/> */}
+          <a href="/homeresign">
+          <button className="text-md md:text-md bg-green-200 hover:bg-[#aa55dd66] text-black py-2 px-5 mt-4 rounded-full transition duration-300 ease-in-out ">
+          March Sale: $99 Homepage Redesign
             </button>
           </a>
         </div>
@@ -35,6 +41,7 @@ function HeroNew() {
         {/* Full Height Image Section */}
         <div className="order-1 lg:order-2 w-full h-full">
           <img src={Mainimage7} className="w-full h-[600px] md:h-[700px] object-cover" />
+          
         </div>
       </div>
     </section>

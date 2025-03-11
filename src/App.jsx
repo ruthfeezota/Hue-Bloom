@@ -14,6 +14,9 @@ import Ourwork from "./pages/Ourwork";
 import Mypath from "./pages/my-path";
 import { Route, Routes } from "react-router-dom";
 import UpleafMedia from "./pages/OurWork/UpleafMedia";
+import HomeResign from "./pages/Sales/HomeResign";
+import Packages from "./pages/Packages";
+
 
 function App() {
   return (
@@ -25,7 +28,7 @@ function App() {
         <Route path="/ecommerce" element={<Ecommerce />} />
         <Route path="/socialmedia" element={<Socialmedia />} />
         <Route path="/website" element={<Website />} />
-        <Route path="/serviceshom e" element={<ServicesHome />} />
+        <Route path="/serviceshome" element={<ServicesHome />} />
         <Route path="/store" element={<Store />} />
         <Route path="/contactus" element={<Contactus />} />
         <Route path="/servicespage" element={<ServicesPage />} />
@@ -33,6 +36,8 @@ function App() {
         <Route path="/my-path" element={<Mypath />} />
         <Route path="blogcategories" element={blogcategories}/>
         <Route path="/upleafmedia" element={<UpleafMedia />} />
+        <Route path="/homeresign" element={<HomeResign />} /> 
+        <Route path="/packages" element={<Packages />} /> 
         </Routes>
         <Footer/>
         </div>
