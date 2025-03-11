@@ -43,7 +43,7 @@ function AboutUs() {
 
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0">
-                <span className="mb-4 block text-lg font-semibold text-primary">
+                <span className="mb-4 block text-lg font-semibold text-primary text-[#aa55dd66]">
                   Why Choose Hue and Bloom
                 </span>
                 <h2 className="mb-5 font-zentry text-3xl  text-dark dark:text-black sm:text-[40px]/[48px]">

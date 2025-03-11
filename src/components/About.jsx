@@ -41,10 +41,10 @@ const About = () => {
       <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
         <AnimatedTitle
           title="Women's History<br />Month"
-          containerClass="mt-5 !text-black text-center"
+          containerClass="mt-5 !text-black text-center text-[#aa55dd66]"
         />
 
-        <div className="about-subtext text-[#586828]">
+        <div className="about-subtext text-[#aa55dd66]">
           <p className="font-bold text-[30px]">
             Your brand is a masterpiece. We treat it like one.
           </p>

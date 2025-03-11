@@ -1,74 +1,43 @@
-import React, { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import BrandGuide from "../assets/BrandGuide.png";
-import BrandGuide2 from "../assets/BrandGuide1.png";
-import BrandGuide3 from "../assets/BrandGuide2.png";
-import BrandGuide4 from "../assets/BrandGuide3.png";
+import React from "react";
+import Mainimage7 from "../assets/NewMain7.webp";
+import Mainimage from "../assets/NewMain.jpg"
+import Mainimage1 from "../assets/NewMain1.webp"
+import Mainimage2 from "../assets/NewMain2.webp"
+import Mainimage3 from "../assets/NewMain3.jpg"
+import Mainimage4 from "../assets/NewMain4.webp"
+import Mainimage5 from "../assets/NewMain5.webp"
+import Mainimage6 from "../assets/NewMain6.webp"
+import Mainimage8 from "../assets/NewMain8.jpg"
+import Mainimage9 from "../assets/NewMain9.jpg"
+import Mainimage10 from "../assets/NewMain10.jpg"
+import Mainimage11 from "../assets/NewMain11.jpg"
 
 function HeroNew() {
-  const images = [BrandGuide, BrandGuide2, BrandGuide3, BrandGuide4];
-  
-  const [index, setIndex] = useState(0);
-
-  // Auto-rotate images every 3 seconds
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000);
-    return () => clearInterval(interval);
-  }, []);
-
   return (
-    <section className="px-3 py-4 mt-20 bg-[#F4F3E1  ] lg:py-10">
-      <div className="grid lg:grid-cols-2 items-center justify-items-center gap-5">
+    <section className="px-3 bg-[#F4F3E1] h-screen">
+      <div className="grid lg:grid-cols-2 items-center h-full">
         {/* Text Section */}
-        <div className="order-2 lg:order-1 flex flex-col justify-center items-center">
-          <p className="text-4xl font-bold md:text-7xl text-[#F5ACC8] font-zentry">25% OFF</p>
-          <p className="text-4xl font-bold md:text-8xl font-zentry bg-green-200 p-1 text-center">All SEO Packages</p>
-          <p className="mt-2 text-sm md:text-[18px]">
-          Skyrocket Your Rankings: Rank Higher, Get More Traffic.
+        <div className="order-2 lg:order-1 flex flex-col justify-center items-center px-6">
+          <p className="text-4xl font-bold md:text-5xl text-[#F5ACC8] text-center">Service Business Growth: Websites & SEO.</p>
+          {/* <p className="text-4xl font-bold md:text-8xl font-zentry bg-green-200 p-1 text-center">
+            Marketing Agency
+          </p> */}
+          <p className="mt-2 text-sm md:text-[18px] text-center">
+          We understand the unique challenges of service-based businesses. Let us elevate your online presence and drive consistent growth.
           </p>
           <a href="/store">
-          <button className="text-lg md:text-xl bg-green-200 text-black py-2 px-5 mt-8 hover:bg-zinc-100 rounded-full transition duration-300 ease-in-out font-zentry">
-            Shop Now
-          </button>
+            <button className="text-md md:text-lg bg-[#aa55dd66] hover:bg-green-200 text-black py-2 px-5 mt-6 rounded-full transition duration-300 ease-in-out ">
+            See Our Service Packages
+            </button>
           </a>
         </div>
 
-        {/* Image Section with Auto-Rotating Carousel */}
-        <div className="order-1 lg:order-2 flex flex-col items-center mr-10">
-
-          <AnimatePresence mode="wait">
-            <motion.img
-              key={index}
-              className="w-h-[63vh] object-cover rounded-md shadow-lg" 
-              src={images[index]}
-              alt="Main"
-              transition={{ duration: 20 }}
-            />
-          </AnimatePresence>
-          <p className=" font-zentry text-[20px] text-[#F5ACC8] leading-8">Our clients's GMB results!</p>
-
-          {/* Image Thumbnails */}
-          {/* <div className="mt-5 flex space-x-3">
-            {images.map((img, i) => (
-              <motion.img
-                key={i}
-                src={img}
-                alt={`Slide ${i + 1}`}
-                className={`w-24 h-24 object-cover rounded-md cursor-pointer ${
-                  index === i ? "border-2 border-black" : "opacity-50"
-                }`}
-                onClick={() => setIndex(i)}
-                animate={{ opacity: index === i ? 1 : 0.5, scale: index === i ? 1.1 : 1 }}
-                transition={{ duration: 10 }}
-              />
-            ))}
-          </div> */}
+        {/* Full Height Image Section */}
+        <div className="order-1 lg:order-2 w-full h-full">
+          <img src={Mainimage7} className="w-full h-[600px] md:h-[700px] object-cover" />
         </div>
       </div>
     </section>
   );
 }
-
 export default HeroNew;

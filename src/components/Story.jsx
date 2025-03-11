@@ -101,7 +101,7 @@ const FloatingImage = () => {
         <div className="flex-1 justify-center md:justify-end sm:min-w-[450px] mt-56">
           <div className="flex h-full w-fit flex-col items-center md:items-start">
             <p className="mt-3 max-w-sm text-center font-circular-web text-white md:text-start">
-              <span className=" font-zentry text-[24px] md:text-[27px] text-black sm:text-white  ">
+              <span className=" font-zentry text-[24px] md:text-[27px] text-black sm:text-[#aa55dd]  ">
                 Your brand deserves to shine
               </span>{" "}
               <br />

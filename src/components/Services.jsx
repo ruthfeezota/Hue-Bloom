@@ -105,7 +105,7 @@ function Services() {
                 key={idx}
                 className=" space-y-3 p-4 border-[#A8C082] duration-150 "
               >
-                <div className="text-[#A8C082] pb-3">{item.icon}</div>
+                <div className="text-[#aa55dd66] pb-3">{item.icon}</div>
                 <h4 className="text-[30px] text-black font-zentry">
                   {item.title}
                 </h4>
