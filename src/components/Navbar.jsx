@@ -8,10 +8,11 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import Button from "./Button";
 
 const navItems = [
-  { label: "About Us", link: "/about" },
+  
   { label: "Our Work", link: "/ourwork" },
   { label: "Web Design", link: "/website" },
-  { label: "Social Media Management", link: "/socialmedia" },
+  { label: "SEO", link: "/seo" },
+  { label: "About Us", link: "/about" },
   { label: "Contact Us", link: "/contactus" },
 ];
 

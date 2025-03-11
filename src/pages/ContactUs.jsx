@@ -271,7 +271,7 @@ function ContactUs() {
                 {/* Button updated with type="submit" */}
                 <button
                   type="submit"
-                  className="mt-2 cursor-pointer bg-yellow-100 text-black rounded-full py-2 px-6 font-general text-xs uppercase"
+                  className="mt-2 cursor-pointer bg-purple-200 text-black rounded-full py-2 px-6 font-general text-xs uppercase"
                 >
                   Contact Us
                 </button>
@@ -298,7 +298,7 @@ function ContactUs() {
     className="w-20 h-20 rounded-full object-cover border border-gray-200"
   />
   <div>
-    <h3 className="text-md font-semibold text-black mt-3">Dylan Harkins</h3>
+    <h3 className="text-md font-semibold text-black mt-3">Dylanna Harkins</h3>
     <h5 className="text-[13px]">Lead Digital Marketer</h5>
     <div className="flex space-x-4">
     <a
@@ -363,7 +363,7 @@ function ContactUs() {
               <a href="https://cal.com/hueandbloom" target="_blank">
                 <Button
                   title="Book A FREE Strategy Call"
-                  containerClass="mt-10 cursor-pointer"
+                  containerClass="mt-10 cursor-pointer bg-purple-200"
                 />
               </a>
             </div>

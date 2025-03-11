@@ -16,6 +16,7 @@ import { Route, Routes } from "react-router-dom";
 import UpleafMedia from "./pages/OurWork/UpleafMedia";
 import HomeResign from "./pages/Sales/HomeResign";
 import Packages from "./pages/Packages";
+import SEO from "./pages/SEO";
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
         <Route path="/upleafmedia" element={<UpleafMedia />} />
         <Route path="/homeresign" element={<HomeResign />} /> 
         <Route path="/packages" element={<Packages />} /> 
+        <Route path="/seo" element={<SEO />} /> 
         </Routes>
         <Footer/>
         </div>
