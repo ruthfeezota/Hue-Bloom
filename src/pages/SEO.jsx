@@ -4,13 +4,14 @@ import Button from "../components/Button";
 import image1 from '../assets/BrandGuide.png';
 import image2 from '../assets/BrandGuide1.png';
 import image3 from '../assets/BrandGuide3.png';
+import Contact from '../components/Contact';
 
 
 function SEO() {
   return (
     <section className="overflow-hidden bg-[#F4F3E1] pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]">
      <div className="container mx-auto">
-  <h1 className='flex items-center justify-center m-10 font-zentry text-7xl text-black'>Dominate Google Rankings</h1>
+  <h1 className='flex items-center justify-center m-10 text-5xl font-semibold tracking-tight text-gray-900 sm:text-6xl'>Dominate Salon Google Rankings</h1>
   <div className="-mx-4 flex flex-wrap items-center justify-between">
     <div className="w-full px-4 lg:w-6/12">
       <div className="-mx-3 flex items-center sm:-mx-4">
@@ -156,10 +157,13 @@ function SEO() {
   ))}
 </div>
 </div>
+
 </div>
+<Contact/>
 
 
     </section>
+    
   );
 }
 

@@ -1,9 +1,9 @@
 import React from "react";
 import DylayPhoto from "../assets/DylanPhoto.png";
 import RuthPhoto from "../assets/RuthPhoto.jpeg";
-import PropImg from "../assets/PropQuestion.png";
-import RunClub from "../assets/RunClub.jpg";
-import texasoriginalteam from "../assets/texasoriginalteam.png";
+import PropImg from "../assets/Happsalonteams1.jpg";
+import RunClub from "../assets/Happsalonteams2.jpg";
+import texasoriginalteam from "../assets/Happsalonteams3.jpeg";
 import Contact from "../components/Contact";
 import AnimatedTitle from "../components/AnimatedTitle";
 import { useState } from "react";
@@ -57,13 +57,25 @@ function AboutPage() {
 
           <p className="text-md text-black leading-relaxed">
             <span className="font-bold">
-            Your women-owned business deserves to shine online. At Hue & Bloom Marketing, we're committed to showcasing your unique story and driving tangible results. <br />
+              Your women-owned business deserves to shine online. At Hue & Bloom
+              Marketing, we're committed to showcasing your unique story and
+              driving tangible results. <br />
             </span>{" "}
-            Founded in Austin, Texas, Hue & Bloom Marketing began with a powerful mission: {" "}
+            Founded in Austin, Texas, Hue & Bloom Marketing began with a
+            powerful mission:{" "}
             <span className="font-bold">
-            to empower women-owned businesses with cutting-edge digital marketing solutions.
+              to empower women-owned businesses with cutting-edge digital
+              marketing solutions.
             </span>{" "}
-            We understand the unique challenges and opportunities within the dynamic landscape of female entrepreneurship. With a team of passionate experts, we bring a blend of creativity, strategy, and technical expertise to every project. From crafting compelling brand positioning strategies to optimizing your online presence, we provide solutions that scale as your business grows. Whether it's developing cohesive brand narratives, designing user-friendly websites, or creating strategic content workflows, we're here to help you thrive.
+            We understand the unique challenges and opportunities within the
+            dynamic landscape of female entrepreneurship. With a team of
+            passionate experts, we bring a blend of creativity, strategy, and
+            technical expertise to every project. From crafting compelling brand
+            positioning strategies to optimizing your online presence, we
+            provide solutions that scale as your business grows. Whether it's
+            developing cohesive brand narratives, designing user-friendly
+            websites, or creating strategic content workflows, we're here to
+            help you thrive.
           </p>
         </section>
 
@@ -82,18 +94,25 @@ function AboutPage() {
               />
               <h3 className="text-xl font-bold text-black">Dylanna Harkins</h3>
               <p className="text-black mt-2">
-              Dylanna Harkins is a seasoned professional with a diverse background in project management and business development. Her passion for empowering women entrepreneurs ignited her entrepreneurial spirit, leading her to establish Hue & Bloom Marketing. Driven by a deep understanding of the challenges women face in business, and the needs of their customers, Dylanna is dedicated to providing exceptional service and fostering growth within this vibrant community.
+                Dylanna Harkins is a seasoned professional with a diverse
+                background in project management and business development. Her
+                passion for empowering women entrepreneurs ignited her
+                entrepreneurial spirit, leading her to establish Hue & Bloom
+                Marketing. Driven by a deep understanding of the challenges
+                women face in business, and the needs of their customers,
+                Dylanna is dedicated to providing exceptional service and
+                fostering growth within this vibrant community.
               </p>
               <div className="mt-4">
                 <a
                   href="https://www.linkedin.com/in/dylan-h-03690217a/"
-                  className="text-[#A0B857] hover:underline mx-2"
+                  className="text-purple-600  hover:underline mx-2"
                 >
                   LinkedIn
                 </a>
                 <a
                   href="info@hueandbloom.com"
-                  className="text-[#A0B857] hover:underline mx-2"
+                  className="text-purple-600  hover:underline mx-2"
                 >
                   Email
                 </a>
@@ -109,18 +128,24 @@ function AboutPage() {
               />
               <h3 className="text-xl font-bold text-black">Ruth Zota</h3>
               <p className="text-black mt-2">
-              Ruth Zota is a highly creative programmer with a distinguished career in web development and design. Co-founding Hue & Bloom Marketing presented an exciting opportunity to channel her passion for supporting women-owned businesses and express her innovative spirit within a dynamic entrepreneurial venture. She loves to create beautiful and functional websites that help women succeed.
+                Ruth Zota is a highly creative programmer with a distinguished
+                career in web development and design. Co-founding Hue & Bloom
+                Marketing presented an exciting opportunity to channel her
+                passion for supporting women-owned businesses and express her
+                innovative spirit within a dynamic entrepreneurial venture. She
+                loves to create beautiful and functional websites that help
+                women succeed.
               </p>
               <div className="mt-4">
                 <a
                   href="https://linkedin.com/in/founder2"
-                  className="text-[#A0B857] hover:underline mx-2"
+                  className="text-purple-600 hover:underline mx-2"
                 >
                   LinkedIn
                 </a>
                 <a
                   href="info@hueandbloom.com"
-                  className="text-[#A0B857] hover:underline mx-2"
+                  className="text-purple-600  hover:underline mx-2"
                 >
                   Email
                 </a>
@@ -130,8 +155,8 @@ function AboutPage() {
         </section>
         <section>
           <div>
-            <h1 className="text-center font-bold text-[30px] mt-24 items-center">
-              Austin Community
+            <h1 className="text-[30px] items-center text-4xl font-bold md:text-6xl font-null p-1 text-center mt-24 text-[#a5d6]">
+              Our Happy Clients
             </h1>
           </div>
           <div className="flex flex-col gap-4 md:flex-row justify-center items-center ">
@@ -166,37 +191,40 @@ function AboutPage() {
             </div>
           </div>
 
-
-
           <div className="lg:w-1/2 md:w-2/3 mx-auto items-center justify-center mt-16">
-          <div className="items-center p-2">
-  <h1 className="text-[18px]">Be the first to know—subscribe to our newsletter now!</h1>
-  </div>
-  <form className="flex items-center space-x-4" onSubmit={handleSubmit}>
-    <div className="flex flex-col">
-      <label
-        htmlFor="email"
-        className="leading-7 text-sm text-black font-robert-regular">
-      </label>
-      <input
-        type="email"
-        id="email"
-        name="email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-        placeholder="email address"
-        className="w-[300px] bg-white rounded-full focus:border-indigo-500 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-      />
-    </div>
+            <div className="items-center p-2">
+              <h1 className="text-[18px]">
+                Be the first to know—subscribe to our newsletter now!
+              </h1>
+            </div>
+            <form
+              className="flex items-center space-x-4"
+              onSubmit={handleSubmit}
+            >
+              <div className="flex flex-col">
+                <label
+                  htmlFor="email"
+                  className="leading-7 text-sm text-black font-robert-regular"
+                ></label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="email address"
+                  className="w-[300px] bg-white rounded-full focus:border-indigo-500 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                />
+              </div>
 
-    <button
-      type="submit"
-      className="cursor-pointer bg-yellow-100 text-black rounded-full py-2 px-6 font-general text-xs uppercase"
-    >
-      Submit
-    </button>
-  </form>
-</div>
+              <button
+                type="submit"
+                className="cursor-pointer bg-yellow-100 text-black rounded-full py-2 px-6 font-general text-xs uppercase"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
         </section>
       </div>
       <div>

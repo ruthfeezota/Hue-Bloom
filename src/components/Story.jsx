@@ -46,10 +46,10 @@ const FloatingImage = () => {
 
   return (
     <div id="story" className="max-h-[650px] w-screen bg-black text-white">
-      <div className="flex flex-col md:flex-row w-full items-center md:items-start gap-6 px-5 py-10">
+      <div className="flex flex-col md:flex-row w-full items-center md:items-start gap-6 px-5 py-4">
         <div className="relative w-full md:w-auto mt-10">
           <AnimatedTitle
-            title="Passion.<br/>Creativity.<br/>Innovation."
+            title="Elevate.<br/>Engage.<br/>Grow."
             containerClass="mt-5 pointer-events-none mix-blend-difference relative z-10"
           />
 
@@ -63,7 +63,7 @@ const FloatingImage = () => {
                   onMouseUp={handleMouseLeave}
                   onMouseEnter={handleMouseLeave}
                   src="/img/candleset.png"
-                  alt=""
+                  alt="Luxury salon spa branding"
                   className="object-cover"
                 />
               </div>
@@ -98,24 +98,24 @@ const FloatingImage = () => {
           </div>
         </div>
 
-        <div className="flex-1 justify-center md:justify-end sm:min-w-[450px] mt-56">
+        <div className="flex-1 justify-center md:justify-end sm:min-w-[450px] mt-28">
           <div className="flex h-full w-fit flex-col items-center md:items-start">
             <p className="mt-3 max-w-sm text-center font-circular-web text-white md:text-start">
               <span className=" font-zentry text-[24px] md:text-[27px] text-black sm:text-[#aa55dd]  ">
-                Your brand deserves to shine
+                Transform Your Salon or Spa Online
               </span>{" "}
               <br />
-              and Hue & Bloom is here to showcase your story and drive results.
-              Founded in Austin, Texas, we empower women-owned brands with
-              creative, strategic, and technical marketing solutions tailored to
-              this dynamic industry. From brand positioning to Shopify upgrades
-              and content workflows, we provide scalable solutions to help your
-              business thrive.
+              At Hue & Bloom, we specialize in high-converting web design and SEO
+              strategies tailored for salons and spas. Based in Austin, Texas, we
+              help beauty and wellness brands enhance their digital presence, attract
+              more clients, and rank higher on search engines. From sleek website
+              designs to local SEO that boosts bookings, we create custom solutions
+              that drive real growth.
             </p>
             <a href="https://candropsproject1.web.app/" target="_blank">
               <Button
                 id="realm-btn"
-                title="Discover Our Art Vision"
+                title="See How We Elevate Brands"
                 containerClass="mt-5 bg-[#A8C082]"
               />
             </a>

@@ -37,17 +37,17 @@ const Contact = () => {
     }
   };
   return (
-    <div className="my-20 min-h-96 w-screen  px-10">
-      <div className="relative rounded-3xl bg-black py-24 text-blue-50 sm:overflow-hidden">
+    <div className="my-20 min-h-16 w-screen px-10">
+      <div className="relative rounded-3xl bg-black py-14 text-blue-50 sm:overflow-hidden">
         <div className="absolute -left-20 top-0 hidden h-full w-72 overflow-hidden sm:block lg:left-20 lg:w-96">
           <ImageClipBox
-            src="/img/contact-1.webp"
+            src="/img/Happy-Client.jpg"
             clipClass="contact-clip-path-1"
             alt="SEO Marketing Agency, SEO Marketing Services, CBD Marketing, web design Marketing, Industrial SEO Marketing, SEO Product Marketing, SEO Branding, SEO Advertising, SEO SEO, SEO Social Media Marketing, SEO Content Marketing, SEO Email Marketing, SEO Google Ads, SEO Marketing Strategy, SEO Market Research, SEO Compliance Marketing
 "
           />
           <ImageClipBox
-            src="/img/contact-2.webp"
+            src="/img/Happy-Client5.jpg"
             clipClass="contact-clip-path-2 lg:translate-y-40 translate-y-60"
             alt="SEO Marketing Agency for Startups, SEO Marketing Agency for E-commerce, SEO Marketing Agency for CBD Oil, SEO Marketing Agency for Delta 8, SEO Marketing Agency for Farmers, SEO Marketing Agency with Google Ads Expertise, SEO Marketing Agency specializing in e-commerce, SEO Marketing Agency specializing in Skincare
 "
@@ -56,12 +56,12 @@ const Contact = () => {
 
         <div className="hidden sm:block absolute -top-40 left-20 w-60 sm:top-1/2 md:left-auto md:right-10 lg:top-20 lg:w-80">
   <ImageClipBox
-    src="/img/swordman-partial.webp"
+    src="/img/Happy-Client2.webp"
     clipClass="absolute md:scale-125"
     alt="SEO Marketing Agency Austin, Austin SEO Marketing, SEO Marketing Services Austin TX, CBD Marketing Austin, web design Marketing Austin, SEO Marketing Agency Texas, Texas SEO"
   />
   <ImageClipBox
-    src="/img/swordman.webp"
+    src="/img/Happy-Client2.webp"
     clipClass="sword-man-clip-path md:scale-125"
     alt="Texas SEO Marketing, SEO Marketing Services Texas, Best SEO Marketing Agency Austin, Top Rated SEO Marketing Agency Austin"
   />
@@ -70,30 +70,29 @@ const Contact = () => {
 
         <div className="flex flex-col items-center text-center">
           <AnimatedTitle
-            title="let&#39;s build the new era of SEO together."
+            title="Unlock Your Salon's Online Potential - Get Started Today!"
             className="special-font !md:text-[6.2rem] w-full font-zentry !text-5xl !font-black !leading-[.9]"
           />
           <a href="https://cal.com/hueandbloom" target="_blank">
             <Button
-              title="Book A FREE Strategy Call"
-              containerClass="mt-10 cursor-pointer"
+              title="Schedule a Free Consultation"
+              containerClass="mt-10 cursor-pointer bg-purple-300"
             />
           </a>
         </div>
       </div>
 
       <section className="text-black body-font relative">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 py-2 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
             <div className="relative z-10" id="contact">
               <AnimatedTitle
-                title="Contact&ensp;us"
+                title="Speak with a Salon Marketing Expert"
                 containerClass="mt-5 !text-black text-center"
               />
             </div>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base mt-4 font-robert-regular">
-              Need creative web design or content design help? We have helped
-              200+ women-owned businesses launch and thrive!
+            Join the 200+ salons and spas we've helped succeed with our proven website and SEO strategies. We're here to answer your questions. Contact us now.
             </p>
           </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
@@ -152,14 +151,14 @@ const Contact = () => {
                 {/* Button updated with type="submit" */}
                 <button
                   type="submit"
-                  className="mt-2 cursor-pointer rounded-full bg-[#aa55dd66]  px-7 py-3 font-general text-xs uppercase text-[12px]"
+                  className="mt-2 cursor-pointer rounded-full bg-[#aa55dd66] px-7 py-3 font-general text-xs uppercase text-[12px]"
                 >
-                  Contact Us
+                  Connect Now
                 </button>
               </div>
             </form>
 
-            <div className="flex text-[15px] mb-10">
+            <div className="flex text-[15px] mb-2">
               <p>810 Barton Springs Drive Austin TX, 78704</p>
               <p className="ml-10">(830) 822-1337</p>
               <p className="ml-10">info@hueandbloom.com</p>

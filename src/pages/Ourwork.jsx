@@ -13,6 +13,7 @@ import image8 from '../assets/mrnaturalz2.png';
 import image9 from '../assets/mrnaturalz3.png'
 import image10 from '../assets/mrnaturalz4.png'
 import Ranking from '../components/Ranking';
+import Contact from '../components/Contact';
 
 
 function Ourwork() {
@@ -22,7 +23,7 @@ function Ourwork() {
         <NavBar/>
         <section className="overflow-hidden bg-[#F4F3E1  ] pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]">
         <div className="container mx-auto">
-        <h1 className='flex items-center justify-center m-10 font-zentry text-7xl text-[#F5ACC8]'>Our Work</h1>
+        <h1 className='flex items-center justify-center m-10 text-5xl font-semibold tracking-tight text-gray-900 sm:text-6xl'>Our Work</h1>
           <div className="-mx-4 flex flex-wrap items-center justify-between">
             <div className="w-full px-4 lg:w-6/12">
               <div className="-mx-3 flex items-center sm:-mx-4">
@@ -106,7 +107,7 @@ function Ourwork() {
         </div>
       </section>
 
-
+      <Ranking/>
       <section className="overflow-hidden bg-[#F4F3E1  ] pb-2 pt-2 dark:bg-dark lg:pb-[10px] lg:pt-[10px] mb-2">
         <div className="container mx-auto">
           <div className="-mx-4 flex flex-wrap items-center justify-between">
@@ -287,8 +288,10 @@ function Ourwork() {
         </div>
       </section>
 
+      <Contact/>
+
       <div>
-        <Ranking/>
+
       </div>
       </div>
   )

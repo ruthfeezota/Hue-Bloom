@@ -123,7 +123,7 @@ const Features = () => (
       <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7 text-white">
         <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
           <BentoCard
-            src="img/Glossed1.png"
+            src="img/Glossed2.png"
             title="Glossed Salon"
             description="Launched a creative social media campaign for a hair salon with bold graphics and informative videos."
             isComingSoon

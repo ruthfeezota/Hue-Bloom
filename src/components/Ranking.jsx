@@ -38,9 +38,9 @@ function Ranking() {
   return (
     <div className="flex justify-center items-center h-auto mt-1 mb-4">
       <div className="w-full max-w-4xl p-6 rounded-lg text-center">
-      <p className="text-3xl font-bold md:text-4xl font-null p-1 text-center text-[#a5d6]">What our customers say</p>
+      <p className="text-4xl font-bold md:text-6xl font-null p-1 text-center mt-10 text-[#a5d6]">What our customers say</p>
         <h2 className="text-xl font-regular text-blue-gray-900 mb-4 ">{reviews[index].text}</h2>
-        <img src={reviews[index].image} alt={reviews[index].name} className="w-14 h-14 rounded-full mx-auto" />
+        <img src={reviews[index].image} alt={reviews[index].name} className="w-16 h-16 rounded-full object-cover mx-auto mt-8" />
         <h6 className="mt-2 font-semibold">{reviews[index].name}</h6>
         <p className="text-gray-700 text-sm">{reviews[index].title}</p>
         <div className="flex justify-center mt-2">

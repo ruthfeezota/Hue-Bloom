@@ -10,6 +10,8 @@ import MarketingPDF from "../components/MarketingPDF"
 import AboutUs from "../components/AboutUs";
 import HeroNew from "../components/HeroNew";
 import Ranking from "../components/Ranking";
+import Testimony from "../components/Testimony";
+import Newsletter from "../components/Newsletter";
 
 function Home() {
   return (
@@ -17,7 +19,7 @@ function Home() {
     <title>Home Page | Hue & Bloom Marketing in Austin empowers women-owned businesses nationwide with expert web design, SEO, and social media. Let us amplify your brand and drive growth. | Hue & Bloom</title>
             <meta
                 name="description"
-                content="Hue & Bloom Marketing: Empowering women-owned businesses with creative web design, SEO, and social media strategies. Join our community and watch your business thrive."
+                content="Hue & Bloom Marketing:Empowering women-owned businesses with creative web design, SEO, and social media strategies. Join our community and watch your business thrive."
             />
             <meta
                 name="keywords"
@@ -31,8 +33,10 @@ function Home() {
       <Features />
       <MarketingPDF/>
       <About />
+      <Testimony/>
       <Story />
       <Contact />
+      <Newsletter/>
       
     </main>
   );

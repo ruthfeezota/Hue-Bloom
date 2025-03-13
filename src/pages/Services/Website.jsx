@@ -4,15 +4,17 @@ import Button from "../../components/Button";
 import image1 from '../../assets/Web1.png';
 import image2 from '../../assets/Web2.png';
 import image3 from '../../assets/Web3.png';
+import Testimony from '../../components/Testimony';
+import Contact from '../../components/Contact';
 
 function Website() {
   return (
     <section className="overflow-hidden bg-[#F4F3E1] pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]">
       <div className="container mx-auto">
-        <h1 className='flex items-center justify-center m-10 font-zentry text-7xl text-black'>Custom Websites That Convert</h1>
+        <h1 className='flex items-center justify-center m-10 text-5xl font-semibold tracking-tight text-gray-900 sm:text-6xl'>Salon and Spa Websites That Convert</h1>
         <div className="-mx-4 flex flex-wrap items-center justify-between">
           <div className="w-full px-4 lg:w-6/12">
-            <div className="-mx-3 flex items-center sm:-mx-4">
+            <div className="-mx-3 flex items-center sm:-mx-4 p-1">
               <div className="w-full px-3 sm:px-4 xl:w-1/2">
                 <div className="py-3 sm:py-4">
                 <a href='https://urbanevolutionsalon.com/'>
@@ -74,7 +76,9 @@ function Website() {
         </div>
       </div>
 
-      <div className="mx-auto max-w-4xl text-center mt-36">
+      <Testimony/>
+
+      <div className="mx-auto max-w-4xl text-center mt-10">
   <h2 className="text-base font-semibold text-purple-500">Web Design Packages</h2>
   <p className="mt-2 text-5xl font-semibold tracking-tight text-gray-900 sm:text-6xl">
     Beautiful, High-Performing Websites in Just 2-4 Weeks
@@ -88,7 +92,7 @@ function Website() {
     {
       id: 'tier-starter',
       title: 'Starter Website',
-      price: '$999',
+      price: '$599',
       description: "Perfect for small businesses needing a professional online presence quickly.",
       features: [
         'Custom WordPress, Wix, or Square Design',
@@ -106,7 +110,7 @@ function Website() {
     {
       id: 'tier-premium',
       title: 'Premium Website',
-      price: '$1999',
+      price: '$999',
       description: 'For businesses that need a custom, high-performing site with advanced features.',
       features: [
         'Custom WordPress, Wix, or Hand-Coded Design',
@@ -148,6 +152,8 @@ function Website() {
     </div>
   ))}
 </div>
+
+<Contact/>
 
 
       

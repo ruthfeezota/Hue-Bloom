@@ -117,10 +117,10 @@ function Services() {
             ))}
             <div className="flex items-center justify-center"></div>
 
-            <a href="/servicespage" >
+            <a href="/ourword" >
                 <Button
               id="watch-trailer"
-              title= "Explore Our Services Today"
+              title= "View Our Portfolio & Success Stories"
               leftIcon={<TiLocationArrow />}
               containerClass="bg-[#a5d6] flex-center gap-1 mt-2 sm:ml-10"
             />
