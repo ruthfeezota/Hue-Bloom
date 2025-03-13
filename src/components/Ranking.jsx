@@ -36,7 +36,7 @@ function Ranking() {
   }, []);
 
   return (
-    <div className="flex justify-center items-center h-auto mt-4 mb-4">
+    <div className="flex justify-center items-center h-auto mt-1 mb-4">
       <div className="w-full max-w-4xl p-6 rounded-lg text-center">
       <p className="text-3xl font-bold md:text-4xl font-null p-1 text-center text-[#a5d6]">What our customers say</p>
         <h2 className="text-xl font-regular text-blue-gray-900 mb-4 ">{reviews[index].text}</h2>

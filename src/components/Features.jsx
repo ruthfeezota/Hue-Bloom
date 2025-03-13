@@ -115,7 +115,7 @@ const Features = () => (
           title="Upleaf Media"
           description="Redesign branding for Upleaf Media which is a cannabis marketing agency. We created a website, completed graphic design and social media designs."
           isComingSoon
-          link="/ourwork" // Replace with actual URL
+          link="https://www.upleafmedia.com/" // Replace with actual URL
         />
         <div className="absolute inset-0 bg-black opacity-50"></div>
       </BentoTilt>
@@ -123,11 +123,11 @@ const Features = () => (
       <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7 text-white">
         <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
           <BentoCard
-            src="img/Feauter13.png"
-            title="BLAC Detroit"
-            description="Launched a creative social media campaign for a candle brand with bold graphics and informative videos."
+            src="img/Glossed1.png"
+            title="Glossed Salon"
+            description="Launched a creative social media campaign for a hair salon with bold graphics and informative videos."
             isComingSoon
-            link="/ourwork"
+            link="/https://glossedsalonstl.com/"
           />
           <div className="absolute inset-0 bg-black opacity-50"></div>
         </BentoTilt>
@@ -138,18 +138,18 @@ const Features = () => (
             title="Native Poppy"
             description=" Redesigned a coffee shop website with sleek visuals, easy navigation, and an engaging blog."
             isComingSoon
-            link="/ourwork"
+            link="/https://www.nativepoppy.com"
           />
           <div className="absolute inset-0 bg-black opacity-50"></div>
         </BentoTilt>
 
         <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
           <BentoCard
-            src="img/Feauter6.png"
-            title="Black Future Fund"
-            description="Developed vibrant social media designs for a lifestyle brand, featuring eye-catching visuals and unique typography."
+            src="img/mrnaturalz1.png"
+            title="Mr. Naturalz"
+            description="Developed vibrant social media designs for a lifestyle hair brand, featuring eye-catching visuals and unique typography."
             isComingSoon
-            link="/ourwork"
+            link="https://www.mrnaturalz.com/"
           />
           <div className="absolute inset-0 bg-black opacity-50"></div>
         </BentoTilt>

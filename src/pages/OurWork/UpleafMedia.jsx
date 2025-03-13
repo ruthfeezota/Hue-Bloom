@@ -2,9 +2,9 @@ import React from 'react'
 import { TiLocationArrow } from "react-icons/ti";
 import Button from "../../components/Button";
 import NavBar from '../../components/Navbar';
-import image1 from '../../assets/UpleafMediaBrandGuide.png';
-import image2 from '../../assets/UpleafMediaSocials.png';
-import image3 from '../../assets/UpleafMediaBrandSocials.png';
+import image1 from '../../assets/Glossed1.png';
+import image2 from '../../assets/Glossed2.png';
+import image3 from '../../assets/Glossed3.png';
 import image4 from '../../assets/MBGuide.png';
 import image5 from '../../assets/MGWebsite.png';
 import image6 from '../../assets/Liz Braids-5.png'

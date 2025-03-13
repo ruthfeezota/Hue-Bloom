@@ -17,6 +17,13 @@ import UpleafMedia from "./pages/OurWork/UpleafMedia";
 import HomeResign from "./pages/Sales/HomeResign";
 import Packages from "./pages/Packages";
 import SEO from "./pages/SEO";
+import SanAntonioWebDesign from "./pages/SEO Pages/SanAntonioWebDesign"
+import DallasWebDesign from "./pages/SEO Pages/DallasWebDesign"
+import AustinWebDesign from "./pages/SEO Pages/AustinWebDesign"
+import HoustonWebDesign from "./pages/SEO Pages/HoustonWebDesign"
+import NailSalonWeb from "./pages/SEO Pages/NailSalonWeb"
+import SalonSEO from "./pages/SEO Pages/SalonSEO"
+
 
 
 function App() {
@@ -40,6 +47,12 @@ function App() {
         <Route path="/homeresign" element={<HomeResign />} /> 
         <Route path="/packages" element={<Packages />} /> 
         <Route path="/seo" element={<SEO />} /> 
+        <Route path="/AustinWebDesign" element={<AustinWebDesign />} /> 
+        <Route path="/DallasWebDesign" element={<DallasWebDesign />} /> 
+        <Route path="/HoustonWebDesign" element={<HoustonWebDesign />} /> 
+        <Route path="/NailSalonWeb" element={<NailSalonWeb />} /> 
+        <Route path="/SalonSEO" element={<SalonSEO />} /> 
+        <Route path="/SanAntonioWebDesign" element={<SanAntonioWebDesign />} /> 
         </Routes>
         <Footer/>
         </div>
