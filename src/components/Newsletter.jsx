@@ -51,7 +51,7 @@ function Newsletter() {
                     />
                     <button 
                         type="submit" 
-                        className="cursor-pointer bg-yellow-100 text-black rounded-full py-2 px-6 font-general text-xs uppercase"
+                        className="cursor-pointer bg-purple-300 text-black rounded-full py-2 px-6 font-general text-xs uppercase"
                     >
                        Join Us
                     </button>

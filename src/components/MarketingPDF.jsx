@@ -36,10 +36,10 @@ function MarketingPDF() {
         {/* Text and Button Section */}
         <div className="flex flex-col items-center justify-center text-center space-y-4 max-w-[500px]">
           <h1 className="sm:text-[28px] md:text-[40px] mb-4 text-[40px] font-zentry">
-            Download Our <span className="text-[#a5d6]">Free</span> 2025 Marketing Cheat Sheet
+          <span className="text-[#a5d6]">Fill</span> Your Salon's Chairs: Fast Client Attraction
           </h1>
           <p className="text-sm sm:text-base md:text-lg mb-5 px-4 md:px-0">
-            Subscribe to our newsletter for this free download.
+          Get step-by-step methods to quickly build your salon clientele. Subscribe to our newsletter for your free download!"
           </p>
           {/* <button
             onClick={onButtonClick}
@@ -58,10 +58,10 @@ function MarketingPDF() {
         {/* Text and Button Section */}
         <div className="flex flex-col items-center justify-center text-center space-y-4">
           <h1 className="sm:text-[28px] md:text-[40px] mb-4 text-[40px] font-zentry">
-            Get Our <span className="text-[#a5d6]">Free</span> Marketing Guide!
+          Stunning<span className="text-[#a5d6]"> Spa Menu Template</span>: Elevate Your Brand
           </h1>
           <p className="text-sm sm:text-base md:text-lg mb-5 px-4 md:px-0 max-w-[500px]">
-            Subscribe to our newsletter to receive The Complete Guide to Marketing Your Business in 2025.
+          Create a professional and visually appealing spa menu. Subscribe to our newsletter and receive your free, customizable template!
           </p>
           {/* <button
             onClick={onButtonClick}

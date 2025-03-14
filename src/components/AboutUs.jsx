@@ -57,7 +57,7 @@ function AboutUs() {
                 <a href="https://cal.com/hueandbloom" target="_blank">
             <Button
               id="watch-trailer"
-              title="Get Started"
+              title="Learn More"
               leftIcon={<TiLocationArrow />}
               containerClass="bg-[#a5d6] flex-center gap-1 relative"
               
